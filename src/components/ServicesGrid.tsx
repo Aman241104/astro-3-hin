@@ -11,42 +11,42 @@ export default function ServicesGrid() {
     {
       title: t.services.loveMarriage.title,
       desc: t.services.loveMarriage.desc,
-      icon: <Heart size={24} />,
+      icon: <Heart size={24} className="transition-colors" />,
       bg: "bg-red-50",
       img: "/images/services/love-marriage-3842579264.png"
     },
     {
       title: t.services.getLoveBack.title,
       desc: t.services.getLoveBack.desc,
-      icon: <Users size={24} />,
+      icon: <Users size={24} className="transition-colors" />,
       bg: "bg-pink-50",
       img: "/images/services/get-love-back.png"
     },
     {
       title: t.services.stopDivorce.title,
       desc: t.services.stopDivorce.desc,
-      icon: <Handshake size={24} />,
+      icon: <Handshake size={24} className="transition-colors" />,
       bg: "bg-rose-50",
       img: "/images/services/stop-divorce-3842628694.png"
     },
     {
       title: t.services.relationshipProblem.title,
       desc: t.services.relationshipProblem.desc,
-      icon: <Briefcase size={24} />,
+      icon: <Briefcase size={24} className="transition-colors" />,
       bg: "bg-amber-50",
       img: "/images/business-problem-solution.png"
     },
     {
       title: t.services.extraMarital.title,
       desc: t.services.extraMarital.desc,
-      icon: <Zap size={24} />,
+      icon: <Zap size={24} className="transition-colors" />,
       bg: "bg-orange-50",
       img: "/images/extra-marital-new.png"
     },
     {
       title: t.services.husbandWife.title,
       desc: t.services.husbandWife.desc,
-      icon: <ShieldAlert size={24} />,
+      icon: <ShieldAlert size={24} className="transition-colors" />,
       bg: "bg-yellow-50",
       img: "/images/new/relationship-issue.png"
     },
@@ -74,20 +74,21 @@ export default function ServicesGrid() {
                 className="object-cover group-hover:scale-110 transition-transform duration-700" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm p-2 rounded-xl shadow-lg text-crimson group-hover:bg-crimson group-hover:text-white transition-all duration-300">
+              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm p-3 rounded-2xl shadow-lg text-crimson group-hover:bg-crimson group-hover:text-white transition-all duration-300">
                 {service.icon}
               </div>
             </div>
 
-            <div className="p-6 flex flex-col flex-1">
-              <h3 className="text-xl font-black text-gray-900 uppercase tracking-tight mb-3 group-hover:text-crimson transition-colors">{service.title}</h3>
-              <p className="text-sm font-bold text-gray-600 mb-6 leading-relaxed flex-1">{service.desc}</p>
+            <div className="p-8 flex flex-col flex-1">
+              <h3 className="text-xl md:text-2xl font-black text-gray-900 uppercase tracking-tight mb-4 group-hover:text-crimson transition-colors leading-tight">{service.title}</h3>
+              <p className="text-sm md:text-base font-bold text-gray-600 mb-8 leading-relaxed flex-1 opacity-80">{service.desc}</p>
               
               <a 
                 href="tel:+919875958008"
-                className="w-full inline-flex items-center justify-center gap-2 bg-white text-crimson px-6 py-3 rounded-2xl font-black text-xs uppercase tracking-widest group-hover:bg-crimson group-hover:text-white hover:bg-crimson hover:text-white transition-all shadow-md active:scale-[0.98] border border-crimson/10"
+                className="w-full inline-flex items-center justify-center gap-2 bg-white text-crimson px-6 py-4 rounded-2xl font-black text-xs md:text-sm uppercase tracking-widest border-2 border-crimson/10 group-hover:bg-crimson group-hover:text-white transition-all shadow-md active:scale-95"
               >
-                <Phone size={14} /> {t.services.getSolution}
+                <Phone size={18} className="transition-colors" />
+                <span className="transition-colors">{t.services.getSolution}</span>
               </a>
             </div>
           </div>
