@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12 mb-12">
         <div className="flex-1">
           <h2 className="text-3xl font-black uppercase tracking-tighter mb-4 text-crimson">Astro <span className="text-saffron">Pawan Swami</span></h2>
-          <p className="text-gray-400 font-bold mb-6 max-w-sm">World renowned Vedic astrologer providing 100% guaranteed solutions within 24 hours.</p>
+          <p className="text-gray-400 font-bold mb-6 max-w-sm">World renowned Vedic astrologer providing effective and time-tested solutions for all life problems.</p>
           <a href="tel:+919875958008" className="inline-flex items-center gap-3 bg-white text-gray-900 px-6 py-3 rounded-full font-black uppercase tracking-widest hover:scale-105 transition-transform">
             <Phone size={18} className="text-crimson" /> +91-9875958008
           </a>

@@ -27,7 +27,7 @@ export default function Home() {
       {/* Dual Banners Replacement for OtherProblems */}
       <ActionBanner 
         title="LOVE MARRIAGE SPECIALIST"
-        subtitle="Permanent Solutions for Intercaste & Family Marriage Conflicts"
+        subtitle="Effective Solutions for Intercaste & Family Marriage Conflicts"
         image="/images/love-marriage-new.png"
         services={[
           { title: "Love Marriage specialist", icon: <Heart size={18} className="text-gold" fill="currentColor" /> },
@@ -56,7 +56,7 @@ export default function Home() {
       
       <TrustBanner />
       
-      <PromotionalBanner text="100% GUARANTEED RESULT IN 24 HOURS • CALL NOW" secondary />
+      <PromotionalBanner text="HIGHLY EFFECTIVE RESULTS • CALL NOW" secondary />
       
       <AboutExpert />
       

@@ -36,7 +36,7 @@ export default function Hero() {
                 </svg>
               </span>
               <br />
-              Permanently
+              Together
             </h1>
 
             <p className="text-lg md:text-2xl text-gray-600 font-bold mb-10 max-w-xl mx-auto lg:mx-0 leading-tight uppercase italic tracking-tight">
@@ -57,7 +57,7 @@ export default function Hero() {
                </div>
                <div className="bg-white p-4 rounded-3xl border border-gold/10 shadow-sm flex flex-col items-center lg:items-start group hover:border-crimson transition-colors hidden md:flex">
                   <Sparkles className="text-saffron mb-2 group-hover:scale-110 transition-transform" fill="currentColor" size={20} />
-                  <span className="text-[9px] font-black text-gray-400 uppercase tracking-widest">Guaranteed</span>
+                  <span className="text-[9px] font-black text-gray-400 uppercase tracking-widest">Trusted</span>
                   <span className="text-lg font-black text-gray-900 tracking-tighter">In 24 Hrs</span>
                </div>
             </div>
@@ -121,10 +121,10 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating Element: 100% Satisfaction */}
+              {/* Floating Element: Top Rated */}
               <div className="absolute -top-6 -right-6 bg-gold text-crimson p-6 rounded-full shadow-2xl border-4 border-white rotate-12 hover:rotate-0 transition-transform cursor-default z-20">
-                <div className="text-3xl font-black italic leading-none">100%</div>
-                <div className="text-[10px] font-black uppercase tracking-widest">Safe & Private</div>
+                <div className="text-2xl font-black italic leading-none">TOP</div>
+                <div className="text-[10px] font-black uppercase tracking-widest">Rated</div>
               </div>
             </div>
           </div>

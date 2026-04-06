@@ -56,7 +56,7 @@ export default function TrustBanner() {
                  <div className="bg-[#2ECC71] p-1.5 rounded-lg flex items-center gap-1 border border-[#27AE60] shadow-sm">
                    <Lock size={14} className="text-white fill-white" />
                    <div className="flex flex-col leading-none">
-                      <span className="text-[8px] font-black text-white">100%</span>
+                      <span className="text-[8px] font-black text-white">HIGHLY</span>
                       <span className="text-[8px] font-black text-white">SECURE</span>
                    </div>
                  </div>
@@ -70,7 +70,7 @@ export default function TrustBanner() {
             </div>
 
             <p className="text-[#004D40] font-black text-xs md:text-sm uppercase mb-4">
-              All Problem & Get Permanent Solution
+              All Problem & Get Effective Solution
             </p>
 
             <div className="bg-[#FFD700] px-6 py-2 rounded-full shadow-md">
@@ -81,7 +81,7 @@ export default function TrustBanner() {
           {/* Right Section: Contact & CTA */}
           <div className="flex flex-col items-center text-center">
             <h4 className="text-crimson font-black text-sm md:text-lg uppercase mb-3">
-              Need Guidance Call & Get The Permanent Solution
+              Need Guidance Call & Get The Effective Solution
             </h4>
 
             <div className="flex items-center gap-2 md:gap-3 mb-4">

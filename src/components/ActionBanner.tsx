@@ -45,8 +45,8 @@ export default function ActionBanner({ title, subtitle, image, services, reverse
 
             {/* Satisfaction Badge */}
             <div className={`absolute -top-6 ${reverse ? '-left-4' : '-right-4'} bg-gold text-crimson p-4 rounded-full shadow-2xl z-20 border-4 border-white rotate-12`}>
-               <div className="font-black text-xl leading-none">100%</div>
-               <div className="text-[8px] font-black uppercase tracking-widest">Result</div>
+               <div className="font-black text-xl leading-none">HIGH</div>
+               <div className="text-[8px] font-black uppercase tracking-widest">SUCCESS</div>
             </div>
          </div>
 

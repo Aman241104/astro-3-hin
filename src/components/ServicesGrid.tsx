@@ -41,7 +41,7 @@ export default function ServicesGrid() {
       desc: t.services.extraMarital.desc,
       icon: <Zap size={24} />,
       bg: "bg-orange-50",
-      img: "/images/services/black-magic-3842692124.png"
+      img: "/images/extra-marital-new.png"
     },
     {
       title: t.services.husbandWife.title,

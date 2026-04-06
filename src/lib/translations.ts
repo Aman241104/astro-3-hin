@@ -37,14 +37,14 @@ export const translations = {
     },
     services: {
       title: "OUR SPECIALIZED SERVICES",
-      subTitle: "Astro Pawan Swami provides highly accurate and permanent solutions for all your relationship and life problems.",
+      subTitle: "Astro Pawan Swami provides highly accurate and effective solutions for all your relationship and life problems.",
       getSolution: "GET SOLUTION NOW",
       loveMarriage: { title: "LOST LOVE BACK SPECIALIST", desc: "Overcome planetary obstacles and bring back your lost love with traditional Vedic rituals." },
       getLoveBack: { title: "BRING YOUR LOVE BACK", desc: "Get effective remedies to reunite with your partner and restore lost harmony within 24-48 hours." },
       stopDivorce: { title: "BREAKUP PROBLEM SOLUTION", desc: "Stop unwanted separation and mend your relationship with powerful spiritual guidance and Vedic pooja." },
-      relationshipProblem: { title: "EX LOVE BACK SPECIALIST", desc: "Specialized mantras to influence your ex-partner and make them realize your love once again for a permanent reunion." },
+      relationshipProblem: { title: "EX LOVE BACK SPECIALIST", desc: "Specialized mantras to influence your ex-partner and make them realize your love once again for a long-lasting reunion." },
       extraMarital: { title: "FAMILY PROBLEM SOLUTION", desc: "Resolve deep-rooted family disputes and restore peace between members using ancient astrological methods." },
-      husbandWife: { title: "HUSBAND WIFE PROBLEM SOLUTION", desc: "Restore harmony and remove misunderstandings between husband and wife permanently with powerful relationship healing." }
+      husbandWife: { title: "HUSBAND WIFE PROBLEM SOLUTION", desc: "Restore harmony and remove misunderstandings between husband and wife effectively with powerful relationship healing." }
     },
     comparison: {
       title: "WHY CHOOSE ASTRO PAWAN SWAMI?",
@@ -57,8 +57,8 @@ export const translations = {
       meetTheMaster: "MEET THE MASTER",
       title: "20+ YEARS OF ANCIENT WISDOM & SPIRITUAL GUIDANCE",
       bio1: "Astro Pawan Swami is a world-renowned Spiritual Guide and Relationship Expert with over two decades of dedicated service to humanity. Hailing from a prestigious lineage of spiritual gurus, he has helped over 50,000 people find their path through Life Chart Analysis and powerful spiritual rituals.",
-      bio2: "His unique approach combines traditional wisdom with a deep understanding of modern psychological challenges. Whether it's love marriage problems, family issues, or complex relationship issues, Pawan Swami provides permanent and effective solutions.",
-      quote: "My mission is to illuminate your life by aligning your positive energies for immediate success and peace.",
+      bio2: "His unique approach combines traditional wisdom with a deep understanding of modern psychological challenges. Whether it's love marriage problems, family issues, or complex relationship issues, Pawan Swami provides highly effective solutions.",
+      quote: "My mission is to illuminate your life by aligning your positive energies for success and peace.",
       relationshipExp: "RELATIONSHIP EXPERTISE",
       negativeEnergyExp: "NEGATIVE ENERGY REMOVAL",
       marriageProblemExp: "MARRIAGE PROBLEM REMEDIES",
@@ -124,8 +124,8 @@ export const translations = {
       a3: "We follow a professional and transparent process. Each consultation is handled with care to provide the most effective remedies based on your life chart.",
       q4: "Can you solve intercaste marriage problems?",
       a4: "Yes, this is our specialty. Guruji has helped thousands of couples convince their parents and get married happily.",
-      q5: "Is your work safe and permanent?",
-      a5: "We only use 'Satvik' and positive spiritual rituals. Our work is SAFE AND EFFECTIVE, has no side effects, and provides permanent solutions."
+      q5: "Is your work safe and effective?",
+      a5: "We only use 'Satvik' and positive spiritual rituals. Our work is SAFE AND EFFECTIVE, has no side effects, and provides effective solutions."
     },
     testimonials: {
       title: "OUR SUCCESS STORIES",
