@@ -91,7 +91,7 @@ export default function Hero() {
               {/* Love Couple Image */}
               <div className="relative w-full h-full rounded-[60px] overflow-hidden border-8 border-white shadow-2xl group">
                 <Image 
-                  src="/images/hero-couple-new.png" 
+                  src="/images/new/hero-couple.png" 
                   alt="Relationship Success" 
                   fill 
                   className="object-cover group-hover:scale-110 transition-transform duration-1000"

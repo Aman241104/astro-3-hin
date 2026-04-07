@@ -43,8 +43,12 @@ export const translations = {
       getLoveBack: { title: "BRING YOUR LOVE BACK", desc: "Get effective remedies to reunite with your partner and restore lost harmony within 24-48 hours." },
       stopDivorce: { title: "BREAKUP PROBLEM SOLUTION", desc: "Stop unwanted separation and mend your relationship with powerful spiritual guidance and Vedic pooja." },
       relationshipProblem: { title: "EX LOVE BACK SPECIALIST", desc: "Specialized mantras to influence your ex-partner and make them realize your love once again for a long-lasting reunion." },
-      extraMarital: { title: "FAMILY PROBLEM SOLUTION", desc: "Resolve deep-rooted family disputes and restore peace between members using ancient astrological methods." },
-      husbandWife: { title: "HUSBAND WIFE PROBLEM SOLUTION", desc: "Restore harmony and remove misunderstandings between husband and wife effectively with powerful relationship healing." }
+      extraMarital: { title: "EXTRA MARITAL AFFAIR", desc: "Resolve complex outside relationship issues and restore loyalty and trust in your marriage with spiritual guidance." },
+      husbandWife: { title: "HUSBAND WIFE PROBLEM", desc: "Restore harmony and remove misunderstandings between husband and wife effectively with powerful relationship healing." },
+      blackMagic: { title: "BLACK MAGIC REMOVAL", desc: "Remove negative energy and black magic effects with powerful traditional Vedic protection rituals." },
+      muthkarni: { title: "MUTHKARNI SPECIALIST", desc: "Powerful spiritual remedies to influence positive outcomes and resolve complex relationship issues." },
+      businessProblem: { title: "BUSINESS & CAREER", desc: "Overcome financial hurdles and achieve success in your career or business with expert astrological guidance." },
+      familyProblem: { title: "FAMILY PROBLEM SOLUTION", desc: "Resolve deep-rooted family disputes and restore peace and unity back to your home." }
     },
     comparison: {
       title: "WHY CHOOSE ASTRO PAWAN SWAMI?",
@@ -203,7 +207,11 @@ export const translations = {
       stopDivorce: { title: "ब्रेकअप समस्या", desc: "ब्रेकअप रोकने या अलगाव के दर्द से उबरने के लिए प्रभावी उपाय।" },
       relationshipProblem: { title: "प्रेम समस्या", desc: "सभी प्रकार के प्रेम संबंधी संघर्षों और भावनात्मक संकटों को हल करने के लिए विशेषज्ञ समाधान।" },
       extraMarital: { title: "अतिरिक्त मामला", desc: "विवाहेतर संबंधों को समाप्त करने और अपने रिश्ते की वफादारी सुरक्षित करने के समाधान।" },
-      husbandWife: { title: "पति और पत्नी की समस्या", desc: "वैवाहिक विवादों को सुलझाएं और साथियों के बीच शांति, प्रेम और समझ बहाल करें।" }
+      husbandWife: { title: "पति-पत्नी की समस्या", desc: "वैवाहिक विवादों को सुलझाएं और साथियों के बीच शांति, प्रेम और समझ बहाल करें।" },
+      blackMagic: { title: "काला जादू निवारण", desc: "शक्तिशाली वैदिक सुरक्षा अनुष्ठानों के साथ नकारात्मक ऊर्जा और काले जादू के प्रभाव को दूर करें।" },
+      muthkarni: { title: "मठकरनी विशेषज्ञ", desc: "सकारात्मक परिणामों को प्रभावित करने और जटिल संबंध मुद्दों को हल करने के लिए शक्तिशाली आध्यात्मिक उपचार।" },
+      businessProblem: { title: "व्यापार और करियर", desc: "विशेषज्ञ ज्योतिषीय मार्गदर्शन के साथ वित्तीय बाधाओं को दूर करें और सफलता प्राप्त करें।" },
+      familyProblem: { title: "पारिवारिक समस्या", desc: "गहरे पारिवारिक विवादों को सुलझाएं और अपने घर में शांति और एकता बहाल करें।" }
     },
     comparison: {
       title: "ज्योतिषी पवन स्वामी को क्यों चुनें?",

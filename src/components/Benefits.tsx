@@ -93,14 +93,13 @@ export default function Benefits() {
                   ))}
                </ul>
 
-               <div className="mt-12 relative z-10">
+               <div className="mt-auto pt-10 relative z-10">
                  <a 
                    href="tel:+919875958008"
-                   className="group/btn block w-full bg-saffron text-crimson py-6 md:py-8 rounded-[30px] font-black text-xl md:text-3xl shadow-xl hover:bg-white hover:text-crimson transition-all hover:scale-[1.02] active:scale-95 uppercase tracking-tighter flex items-center justify-center gap-4 overflow-hidden relative"
+                   className="group/btn block w-full bg-gradient-to-r from-saffron to-gold text-crimson py-5 md:py-7 px-4 rounded-[24px] font-black text-lg md:text-2xl shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:shadow-none hover:translate-y-1 transition-all uppercase tracking-tight flex items-center justify-center gap-3 overflow-hidden relative border-b-4 border-black/10 active:border-b-0 active:translate-y-2"
                  >
                    <span className="relative z-10">{t.benefits.startJourney}</span>
-                   <Sparkles size={24} className="relative z-10 animate-pulse" />
-                   <div className="absolute inset-0 bg-white translate-y-full group-hover/btn:translate-y-0 transition-transform duration-500"></div>
+                   <Sparkles size={24} className="relative z-10 animate-pulse group-hover/btn:scale-125 transition-transform" />
                  </a>
                </div>
             </div>

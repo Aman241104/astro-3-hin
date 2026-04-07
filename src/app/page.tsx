@@ -1,18 +1,17 @@
 "use client";
 
 import Hero from "@/components/Hero";
-import PromotionalBanner from "@/components/PromotionalBanner";
 import ServicesGrid from "@/components/ServicesGrid";
-import ActionBanner from "@/components/ActionBanner";
-import LeadForm from "@/components/LeadForm";
-import FAQ from "@/components/FAQ";
-import TrustBar from "@/components/TrustBar";
-import CategoryBar from "@/components/CategoryBar";
-import WorkingProcess from "@/components/WorkingProcess";
-import Benefits from "@/components/Benefits";
+import SpecializedServices from "@/components/SpecializedServices";
 import AboutExpert from "@/components/AboutExpert";
-import TrustBanner from "@/components/TrustBanner";
+import WorkingProcess from "@/components/WorkingProcess";
+import FAQ from "@/components/FAQ";
+import ActionBanner from "@/components/ActionBanner";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
+import TrustBanner from "@/components/TrustBanner";
+import PromotionalBanner from "@/components/PromotionalBanner";
+import Benefits from "@/components/Benefits";
+import LeadForm from "@/components/LeadForm";
 import { useLanguage } from "@/context/LanguageContext";
 import { Heart, Users, Briefcase, ShieldCheck } from "lucide-react";
 
@@ -23,9 +22,11 @@ export default function Home() {
     <main className="min-h-screen pt-[88px] md:pt-[104px] bg-white">
       <Hero />
       <ServicesGrid />
-      
+
+      <PromotionalBanner text="HIGHLY EFFECTIVE RESULTS • CALL NOW" secondary />
+
       {/* Dual Banners Replacement for OtherProblems */}
-      <ActionBanner 
+      <ActionBanner
         title="LOVE MARRIAGE SPECIALIST"
         subtitle="Effective Solutions for Intercaste & Family Marriage Conflicts"
         image="/images/love-marriage-new.png"
@@ -35,7 +36,7 @@ export default function Home() {
         ]}
       />
 
-      <ActionBanner 
+      <ActionBanner
         title="RELATIONSHIP PROBLEM SOLUTIONS"
         subtitle="Expert Guidance to Resolve All Life & Career Hurdles"
         image="/images/business-problem-solution.png"
@@ -45,29 +46,21 @@ export default function Home() {
           { title: "Business problem solution", icon: <Briefcase size={18} className="text-gold" /> }
         ]}
       />
-      
-      <div className="bg-white">
-        <TrustBar />
-      </div>
 
-      <CategoryBar />
+      <SpecializedServices />
 
-      <PromotionalBanner text={t.hero.freeConsult} />
-      
-      <TrustBanner />
-      
-      <PromotionalBanner text="HIGHLY EFFECTIVE RESULTS • CALL NOW" secondary />
-      
       <AboutExpert />
-      
+
+      <TrustBanner />
+
       <Benefits />
-      
+
       <WorkingProcess />
-      
+
       <PromotionalBanner text={t.footer.ctaTitle} />
-      
+
       <LeadForm />
-      
+
       <FAQ />
 
       <WhatsAppWidget />
