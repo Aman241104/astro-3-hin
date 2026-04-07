@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Phone, Shield, Sparkles, TrendingUp, Home } from "lucide-react";
+import { Phone, Heart, Users, ShieldCheck, Briefcase } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function SpecializedServices() {
@@ -9,32 +9,32 @@ export default function SpecializedServices() {
 
   const services = [
     {
-      title: t.services.blackMagic.title,
-      desc: t.services.blackMagic.desc,
-      icon: <Shield size={24} />,
-      img: "/images/services/black-magic-3842692124.png",
-      bg: "bg-indigo-50/50"
+      title: t.services.loveMarriage.title,
+      desc: t.services.loveMarriage.desc,
+      icon: <Heart size={24} />,
+      img: "/images/services/love-marriage-3842579264.png",
+      bg: "bg-red-50/50"
     },
     {
-      title: t.services.muthkarni.title,
-      desc: t.services.muthkarni.desc,
-      icon: <Sparkles size={24} />,
-      img: "/images/services/muthkarni-3842830963.png",
-      bg: "bg-purple-50/50"
+      title: t.services.extraMarital.title,
+      desc: t.services.extraMarital.desc,
+      icon: <Users size={24} />,
+      img: "/images/extra-marital-new.png",
+      bg: "bg-orange-50/50"
+    },
+    {
+      title: t.services.stopDivorce.title, // Marriage Problem Solution mapping
+      desc: t.services.stopDivorce.desc,
+      icon: <ShieldCheck size={24} />,
+      img: "/images/services/stop-divorce-3842628694.png",
+      bg: "bg-rose-50/50"
     },
     {
       title: t.services.businessProblem.title,
       desc: t.services.businessProblem.desc,
-      icon: <TrendingUp size={24} />,
+      icon: <Briefcase size={24} />,
       img: "/images/business-problem-solution.png",
       bg: "bg-blue-50/50"
-    },
-    {
-      title: t.services.familyProblem.title,
-      desc: t.services.familyProblem.desc,
-      icon: <Home size={24} />,
-      img: "/images/family-problem-solution.png",
-      bg: "bg-emerald-50/50"
     },
   ];
 
@@ -48,7 +48,7 @@ export default function SpecializedServices() {
           <h2 className="text-4xl md:text-6xl font-black text-gray-900 uppercase tracking-tighter mb-4">
             ADDITIONAL <span className="text-crimson">SPECIALIZED</span> SERVICES
           </h2>
-          <p className="text-gray-500 font-bold max-w-2xl mx-auto">Unique spiritual solutions for complex life hurdles and negative energy removal.</p>
+          <p className="text-gray-500 font-bold max-w-2xl mx-auto">Expert spiritual solutions for your most complex life and relationship challenges.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
